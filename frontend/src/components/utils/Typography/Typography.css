@@ -1,0 +1,375 @@
+
+/* ШРИФТЫ */
+
+.typography-h1 {
+    font-size: 135px;
+    font-weight: 800;
+    margin: 0;
+  }
+  
+  
+  .typography-body1 {
+    font-size: 135px;
+    font-weight: 800;
+    margin: 0;
+  }
+
+
+  .typography-h1_demo {
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 125px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    margin: 0;
+    max-width: 1380px;
+  }
+
+
+  .typography-h2_demo {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    margin: 0;
+    max-width: 959px;
+  }
+
+  .typography-demo_caption {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 0.6;
+    padding-left: 13px;
+  }
+
+
+
+
+  .typography-h3_demo {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    margin: 0;
+    }
+
+
+
+.demo_concert__card_repeat_text {
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 110px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin: 0;
+}
+
+.demo_concert__card_desc {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+
+.typography-video {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    padding: 0 40px 0 40px;
+    margin: 0;
+  }
+  
+
+  .left_text_with_blue {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+
+  .about_1-main_text {
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 85px;
+    letter-spacing: -0.05em;
+    max-width: 939px;
+  }
+
+  .about_1-sub_text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    max-width: 450px;
+  }
+  
+  .about_2-main_text {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: -0.01em;
+    max-width: 617px;
+  }
+
+  .about_3-main_text {
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 110px;
+    letter-spacing: -0.05em;
+    max-width: 955px;
+  }
+
+  .about_3-sub_text {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    max-width: 600px;
+  }
+
+  .about_4-main_text {
+    max-width: 801px;
+  }
+
+  .about_card__text {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    color: #ECF5FF;
+  }
+
+  .about_5-main_text {
+    max-width: 880px;
+    font-weight: 600;
+    font-size: 85px;
+    line-height: 90px;
+    letter-spacing: -0.05em;
+  }
+
+  .roadmap_plan { 
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: -0.01em;
+  }
+
+  .roadmap_header {
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 120px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    max-width: 1300px;
+  }
+
+
+  .typography-roadmap_step {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .typography-roadmap_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+  }
+  .typography-roadmap_description {
+      font-weight: 500;
+      font-size: 21px;
+      line-height: 26px;
+      letter-spacing: -0.01em;
+      padding-bottom: 16px;
+  }
+
+
+  .typography-feedback_main {
+    max-width: 650px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: -0.01em;
+}
+
+  
+.forma_description {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0 0 24px 0;
+  }
+
+  .team_header {
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 95px;
+  align-items: center;
+  letter-spacing: -0.03em;
+  
+  }
+
+  .card_team__name {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    margin-bottom: 10px;
+  }
+
+  .card_team__role {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    opacity: 0.8;
+    text-align: left;
+  }
+
+  .card_team__description {
+    max-width: 310px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    opacity: 0.8;
+    margin-bottom: 20px;
+
+  }
+
+  @media (max-width: 1200px) {
+    .typography-h1, .typography-h1_demo, .about_3-main_text, .roadmap_header  {
+      font-size: 90px;
+    }
+    .typography-h1_demo, .about_3-main_text, .roadmap_header {
+        line-height: 92px;
+    }
+    .about_1-sub_text, .about_3-sub_text {
+      max-width: 100%;
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .typography-h1,   .typography-h1_demo, .about_1-main_text, .about_3-main_text, .about_5-main_text, .team_header , .roadmap_header  {
+      font-size: 68px;
+    }
+    .typography-h2_demo {
+    font-size: 50px;
+    }
+    .about_1-main_text, .about_3-main_text, .about_5-main_text, .team_header , .roadmap_header {
+      line-height: 70px;
+    }
+    .about_2-main_text {
+      font-size: 40px;
+      line-height: 42px;
+    }
+  }
+  
+  @media (max-width: 630px) {
+    .typography-h1, .about_1-main_text, .about_3-main_text, .about_5-main_text, .team_header, .roadmap_header {
+      font-size: 50px;
+    }
+    .demo_concert__card_repeat_text {
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .typography-h1_demo {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .typography-h2_demo {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .left_text_with_blue {
+      font-size: 34px;
+      line-height: 36px;
+  }
+    .about_1-main_text, .about_3-main_text, .about_5-main_text, .roadmap_header, .team_header {
+      line-height: 52px;
+    }
+    .about_2-main_text, .roadmap_plan {
+      font-size: 35px;
+      line-height: 37px;
+    }
+    .typography-roadmap_title, .typography-feedback_main {
+      font-size: 28px;
+      line-height: 30px;
+    }
+  
+  }
+  
+  @media (max-width: 480px) {
+    .typography-h1 {
+      font-size: 50px;
+    }
+    .typography-h1_demo, .typography-h2_demo {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .left_text_with_blue {
+      font-size: 30px;
+      line-height: 32px;
+  }
+    .about_1-main_text, .about_5-main_text,.team_header {
+      line-height: 52px;
+    }
+    .about_2-main_text {
+      font-size: 28px;
+      line-height: 30px;
+    }
+    .roadmap_plan, .typography-roadmap_title, .typography-feedback_main{
+      font-size: 20px;
+      line-height: 22px;
+    }
+    .about_3-main_text, .roadmap_header {
+      font-size: 36px;
+      line-height: 38px;
+    }
+    .typography-roadmap_description {
+      font-size: 18px;
+      line-height: 20px;
+      padding-bottom: 8px;
+  }
+  .typography-roadmap_step {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  }
+
+
+  @media (max-width: 460px) {
+  .card_team__description  {
+     max-width: 210px;
+    }
+  }
+  
+
+  @media (max-width: 420px) {
+    .typography-h1, .about_1-main_text, .about_5-main_text, .team_header {
+      font-size: 40px;
+    }
+    .about_1-main_text, .about_5-main_text, .team_header {
+      line-height: 42px;
+    }
+    .about_3-main_text, .roadmap_header {
+      font-size: 28px;
+      line-height: 30px;
+    }
+    .about_3-sub_text {
+      font-size: 20px;
+      line-height: 22px;
+    }
+  }

@@ -1,0 +1,109 @@
+.demo_container_preview {
+    display: grid;
+    grid-template-rows: auto auto auto; /* Заголовок, кнопка, подпись — 3 строки */
+    justify-items: center; /* Центровка по горизонтали */
+  
+    width: 100%;
+    background-color: black;
+    /* background: linear-gradient(
+      to bottom,
+      #000000 0%,
+      #0a0015 30%,
+      #140033 60%,
+      #0a2a63 90%
+    );
+  background-repeat: no-repeat;
+  background-size: cover; */
+    background-image: url('/backDemo.svg');
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-size: cover;
+  
+    padding: 177px 0 60px 0;
+    min-height: calc(100vh - 177px - 60px);
+  }
+  
+  .demo_container_preview__text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+
+.demo_preview__text {
+    height: 400px;
+    overflow-y: scroll;
+    position: relative;
+    scroll-snap-type: y mandatory;
+    width: 100%;
+  }
+  
+  .demo_text_section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    scroll-snap-align: start;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s, transform 0.8s;
+  }
+  
+  .demo_text_section.visible {
+    opacity: 1;
+    transform: translateY(0);
+    width: 100%;
+  }
+  
+
+  /* Для Webkit-браузеров (Chrome, Safari) */
+.demo_preview__text::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  .demo_preview__text {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+  }
+  .demo_preview__text::-webkit-scrollbar {
+    display: none; /* Safari & Chrome */
+  }
+  
+
+  .demo_container_caption {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+  }
+
+  .demo_caption__chip {
+    padding: 16px;
+    width: 220px;
+    background: rgba(16, 16, 16, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -4px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(17px);
+    border-radius: 9px;
+  }
+
+  .demo_btn__try {
+    padding: 18px 4px 18px;
+    width: 316px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    color: #000000;;
+    transition: all 0.3s ease;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 16px;
+  }
+
+  .demo_btn__try:hover {
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.4), 0px 2px 4px rgba(255, 255, 255, 0.3);
+}
+

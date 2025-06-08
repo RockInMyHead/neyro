@@ -1,0 +1,6 @@
+.demo_container_visual {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 93px;
+}

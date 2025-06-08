@@ -1,0 +1,12 @@
+.carousel_wrapper {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 40px;
+    padding: 40px 0;
+  }
+  
+  .carousel_wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  

@@ -1,0 +1,27 @@
+.about_card__container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 40px;
+    margin-bottom: 110px;
+}
+.about_card__wrapper {
+   grid-column: span 3;
+}
+
+@media (max-width: 1200px) {
+     .about_card__container {
+        gap: 20px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .about_card__wrapper {
+        grid-column: span 6;
+     }
+  }
+
+@media (max-width: 630px) {
+    .about_card__wrapper {
+        grid-column: span 12;
+     }
+  }

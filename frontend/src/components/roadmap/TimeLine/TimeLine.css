@@ -1,0 +1,69 @@
+.roadmap_scroll_block {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .timeline_container {
+    display: flex;
+    height: 700px;
+  }
+  
+  .timeline_progress {
+    width: 180px; /* ширина под линию */
+    position: relative;
+  }
+  
+  .progress_line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    background: linear-gradient(to bottom, #00f, #0ff);
+    height: 0; /* будет увеличиваться */
+    border-radius: 2px;
+  }
+  
+  .timeline_content {
+    flex: 1;
+    height: 700px;
+    overflow-y: auto;
+    padding: 40px 40px 40px 80px;
+    color: white;
+    scrollbar-width: none; 
+  }
+
+  .timeline_content::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .timeline_step {
+    margin-bottom: 200px; /* чтобы были расстояния между шагами */
+    font-size: 24px;
+    max-width: 540px;
+  }
+
+  .timeline_step:last-child {
+    margin-bottom: 80px; /* чтобы были расстояния между шагами */
+    font-size: 24px;
+  }
+
+
+  @media (max-width: 1480px) {
+    .timeline_progress {
+        width: 40px; /* ширина под линию */
+        position: relative;
+      }
+      
+  }
+  
+
+  
+  @media (max-width: 630px) {
+    .timeline_content {
+        padding: 18px;
+    }
+  }
+  

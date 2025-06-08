@@ -1,0 +1,41 @@
+.demo_music_choices__container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 39px;
+    max-width: 1061px;
+    margin: 0 auto;
+    margin-top: 44px;
+
+}
+
+.demo_music_choices__box {
+    display: flex;
+    justify-content: center;
+    grid-column: span 2;
+}
+
+.demo_music_choices__box:last-child {
+    grid-column: span 6;
+  }
+  
+
+    /* Уменьшить размер шрифта при ширине меньше 1200px */
+    @media (max-width: 1200px) {
+        .demo_music_choices__box {
+            grid-column: span 3;
+        }
+        .demo_music_choices__box:last-child {
+            grid-column: span 3;
+          }
+      }
+      
+      @media (max-width: 730px) {
+        .demo_music_choices__box {
+            grid-column: span 6;
+        }
+        .demo_music_choices__box:last-child {
+            grid-column: span 6;
+          }
+      }
+    
+    

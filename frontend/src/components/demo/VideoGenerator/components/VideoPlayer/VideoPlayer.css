@@ -1,0 +1,30 @@
+.demo_video__help_text_wrapper {
+    top: 40px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 100;
+}
+
+.video_frame {
+    height: 620px;
+    background-color: black;
+    border-radius: 16px;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 24px;
+    position: relative;
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px rgba(0, 0, 0, 0.14), 0px 3px 14px rgba(0, 0, 0, 0.12);
+}
+.img__demo_wrapper {
+    max-height: 620px;
+    height: 620px;
+    padding: 0 0 0 0;
+}
+.img__demo{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

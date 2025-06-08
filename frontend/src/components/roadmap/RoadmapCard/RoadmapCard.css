@@ -1,0 +1,11 @@
+.roadmap_card__step {
+    margin-bottom: 80px;
+}
+
+
+@media (max-width: 480px) {
+    .roadmap_card__step {
+        margin-bottom: 40px;
+    }
+  }
+  

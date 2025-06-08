@@ -1,0 +1,89 @@
+.demo_concert_container {
+    display: flex;
+    height: 100%;
+    padding-top: 80px;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.demo_concert__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 645px;
+    margin: 0 auto;
+}
+
+.demo_concert__card {
+    max-width: 805px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.demo_concert__text,
+.demo_concert__card {
+  opacity: 0;
+  transform: translateX(-50px); /* по умолчанию выезд слева */
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* для card выезд справа */
+.demo_concert__card {
+  transform: translateX(50px);
+}
+
+.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+
+.demo_concert__card_final_generate {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -0.05em;
+}
+
+.get_tikets {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    margin: 0;
+    cursor: pointer;
+}
+
+
+
+.demo_concert__card_repeat_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+}
+
+@media (max-width: 1200px) {
+    .demo_concert_container {
+        flex-direction: column;
+  }
+  .demo_concert__card_final {
+    text-align: center;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 32px;
+    justify-content: center;
+    width: 100%;
+  }
+  .restart_btn  {
+    width: 100%;
+  }
+}
+  
+
+@media (max-width: 480px) {
+    .demo_concert__card_final_generate {
+       font-size: 30px;
+    }
+  }
